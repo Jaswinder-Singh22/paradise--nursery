@@ -1,0 +1,35 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-page {
+    text-align: center;
+    padding: 50px;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+  }
+  
+  .get-started-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+  }
+  
+  .product-list, .cart {
+    padding: 20px;
+  }
+  
+  .product, .cart-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+  }
+  
